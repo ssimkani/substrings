@@ -1,1 +1,2 @@
 # substrings
+This project consists of a Ruby method that takes a string and an array of valid substrings as arguments. It then returns a hash listing each substring found in the original string and the number of times it was found.
