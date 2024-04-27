@@ -11,4 +11,13 @@ def substrings(string, dictionary)
       substring_arr.push(substring)
     end
   end
+  
+  substring_arr.each do |element|
+    if dictionary.include?(element)
+      count = substring_arr.count(element)
+      substring_hash[element] = count
+    end
+  end
+  
+  substring_hash
 end
