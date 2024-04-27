@@ -1,7 +1,7 @@
 def substrings(string, dictionary)
   # Generate all substrings in a given string and return a hash with keys as
   # the substrings and values as the number of times the substring appears in 
-  # the initial string. The substrings will be in the form of lowercase strings.
+  # the initial string (case insensitive).
   #
   # @param string [String] The initial string
   # @param dictionary [Array] An array of dictionary words
